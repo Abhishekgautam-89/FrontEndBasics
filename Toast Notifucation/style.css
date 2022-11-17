@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "poppins", sans-serif;
+    margin:0;
+    min-height: 100vh;
+}
+
+button{
+    background-color: darkorchid;
+    color:aqua;
+    border-radius: 3px;
+    font-family: inherit;
+    border: none;
+    padding:.5rem 1rem;
+}
+
+#container{
+position:fixed;
+bottom: 10px;
+right: 5px;
+}
+
+.toast{
+    background-color: darkorchid;
+    color: aqua;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+}
